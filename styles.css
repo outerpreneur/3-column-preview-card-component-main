@@ -40,10 +40,10 @@ body {
 .container h1 {
     text-transform: uppercase;
     font-family: 'Big Shoulders Display';
-    font-size: 2.5rem ;
+    font-size: 2.5rem;
 }
 
-button { 
+button {
     padding: 10px 15px;
     border-radius: 25px;
     border: none;
@@ -56,6 +56,7 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
+    height: 200px;
 }
 
 
