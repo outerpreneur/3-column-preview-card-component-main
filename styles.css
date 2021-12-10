@@ -1,0 +1,51 @@
+:root {
+    --main-background: hsla(0, 0%, 100%, 0.75);
+    --column1: rgb(227, 136, 38);
+    --column2: hsl(184, 100%, 22%);
+    --column3: hsl(179, 100%, 13%);
+}
+
+body {
+    background: var(--main-background);
+    color: var(--main-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+}
+
+.column1 {
+    background-color: var(--column1);
+    padding: 30px;
+    width: 150px;
+}
+
+.column2 {
+    background-color: var(--column2);
+    padding: 30px;
+    width: 150px;
+}
+
+.column3 {
+    background-color: var(--column3);
+    padding: 30px;
+    width: 150px;
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 10px;
+}
